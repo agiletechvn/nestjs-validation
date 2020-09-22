@@ -1,3 +1,12 @@
+# INSTALL
+```
+npm install @agiletechvn/nestjs-validation
+```
+or
+```
+yarn add @agiletechvn/nestjs-validation
+```
+
 register app container at app module
 
 ```
