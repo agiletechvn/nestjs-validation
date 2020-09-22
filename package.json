@@ -1,0 +1,30 @@
+{
+  "name": "@agiletech.vn/nestjs-validation",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npx tsc -p tsconfig.json",
+    "watch": "npx tsc -W -p tsconfig.json"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^6.2.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.7.1",
+    "@types/uuid": "^3.4.4",
+    "typescript": "^3.5.1"
+  },
+  "peerDependencies": {
+    "typeorm": "^0.2.18",
+    "@nestjs/common": "^7.4.4",
+    "@nestjs/core": "^6.6.7",
+    "class-validator": "^0.10.0"
+  }
+}
